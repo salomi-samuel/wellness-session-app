@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000", // or deployed backend URL
+  baseURL: "https://wellness-session-backend.onrender.com", // deployed backend URL
 });
 
 API.interceptors.request.use((req) => {
